@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  display: flex;
+  overflow: hidden;
+}
+
+.left-layout {
+  margin: 70px 130px;
+  width: 60%;
+}
+
+.left-layout h4:nth-child(1) {
+  color: #0a1b59;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 156px;
+  text-transform: capitalize;
+}
+
+.left-layout h4:nth-child(2) {
+  background-color: rgba(17, 63, 226, 0.1);
+  border-radius: 100px;
+  color: rgba(17, 63, 226, 1);
+  display: inline;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+}
+
+.left-layout h2 {
+  color: #0a1b59;
+  margin: 15px 0;
+  font-size: 44px;
+}
+
+.left-layout p:nth-of-type(1) {
+  color: rgba(10, 27, 89, 0.6);
+  font-size: 16px;
+  margin-bottom: 40px;
+  width: 70%;
+}
+
+.left-layout p:nth-of-type(2) {
+  color: rgba(10, 27, 89, 0.6);
+  font-size: 12px;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.left-layout input {
+  border-radius: 8px;
+  border: 1px solid rgba(10, 27, 89, 0.2);
+  color: rgba(10, 27, 89, 0.5);
+  padding: 10px 0 10px 20px;
+  width: 390px;
+  outline-color: 1px solid rgba(10, 27, 89, 0.1);
+}
+
+.left-layout input:focus {
+  outline-color: rgba(10, 27, 89, 0.2);
+}
+
+.left-layout input::placeholder {
+  color: rgba(10, 27, 89, 0.5);
+}
+
+.left-layout button {
+  background-color: #113fe2;
+  border: none;
+  border-radius: 8px;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: #ffffff;
+  margin-left: 10px;
+  padding: 10px 30px;
+}
+
+.right-layout {
+  width: 40%;
+}
+
+.right-layout img {
+  display: block;
+  min-height: 100vh;
+  margin-left: auto;
+}
